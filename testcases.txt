@@ -1,0 +1,94 @@
+Test cases and their results:
+------------------------------------
+------------------------------------
+./pointersorter ""
+(prints nothing)
+------------------------------------
+------------------------------------
+./pointersorter "This" "is" "a" "test"
+Please give one string argument.
+------------------------------------
+------------------------------------
+./pointersorter
+Please give one string argument.
+------------------------------------
+------------------------------------
+./pointersorter "            19461214284912769          5"
+(prints nothing)
+------------------------------------
+------------------------------------
+./pointersorter "   -0-04- This.....is^^7437&&A...test ===test.   "
+This
+A
+test
+test
+is
+------------------------------------
+------------------------------------
+./pointersorter "Aand AAnd aAnd aand"
+AAnd
+Aand
+aAnd
+aand
+------------------------------------
+------------------------------------
+./pointersorter "AAAAAb12423423AAAAAc AAAAAD"
+AAAAAD
+AAAAAc
+AAAAAb
+------------------------------------
+------------------------------------
+./pointersorter "aaaAnd aaAAnd AAaAnd AAAand"
+AAAand
+AAaAnd
+aaAAnd
+aaaAnd
+------------------------------------
+------------------------------------
+./pointersorter "thing stuff otherstuff blarp"
+thing
+stuff
+otherstuff
+blarp
+------------------------------------
+------------------------------------
+./pointersorter "thing1stuff3otherstuff,blarp"
+thing
+stuff
+otherstuff
+blarp
+------------------------------------
+------------------------------------
+./pointersorter "marmosets march energetically zoo zounds"
+zounds
+zoo
+marmosets
+march
+energetically
+------------------------------------
+------------------------------------
+./pointersorter "Cat cat zebra Apple"
+Cat
+Apple
+zebra
+cat
+------------------------------------
+------------------------------------
+./pointersorter "Z,,,,,,,.,.,.,.,, A B C a b c--------  D. "
+Z
+D
+C
+B
+A
+c
+b
+a
+------------------------------------
+------------------------------------
+./pointersorter "           This    767    is   535     A    12     test           "
+This
+A
+test
+is
+------------------------------------
+------------------------------------
